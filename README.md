@@ -1,1 +1,1 @@
-# OpenSearch_SIGv4_IAM_Auth
+# OpenSearch SIGv4 IAM Auth
