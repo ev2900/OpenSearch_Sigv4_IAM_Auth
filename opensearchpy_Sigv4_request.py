@@ -1,8 +1,8 @@
 from opensearchpy import OpenSearch, RequestsHttpConnection, AWSV4SignerAuth # pip install opensearch-py
 import boto3
 
-host = 'search-opensearch-demo-basic-auth-tf2ubrkbsq63l3fjpycipkd364.us-east-1.es.amazonaws.com' # ex. search-opensearch-demo-basic-auth-tf2ubrkbsq63l3fjpycipkd364.us-east-1.es.amazonaws.com
-region = 'us-east-1'
+host = '<host_url>' # ex. search-opensearch-demo-basic-auth-tf2ubrkbsq63l3fjpycipkd364.us-east-1.es.amazonaws.com
+region = '<region>' # ex. us-east-1
 
 credentials = boto3.Session(profile_name='os-profile').get_credentials()
 
