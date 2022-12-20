@@ -13,6 +13,10 @@ The resources created by the CloudFormation stack are documented in the architec
 
 2. Navigate to the to the [opensearch-user on the IAM console](https://us-east-1.console.aws.amazon.com/iam/home#/users/opensearch-user?section=security_credentials) and create an access key
 
-3. Log into OpenSearch dashboard, map the ARN of the IAM user to an OpenSearch role
+3. Create a AWS CLI profile to store the access key Id and secret access key ```aws configure --profile os-profile```
 
-3. Run python script
+4. Log into OpenSearch dashboard, map the ARN of the IAM user to an OpenSearch role
+
+<img width="500" alt="map-user" src="https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/README/Map_User.png">
+
+5. Update and run python script
