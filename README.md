@@ -20,3 +20,5 @@ The resources created by the CloudFormation stack are documented in the architec
 <img width="500" alt="map-user" src="https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/README/Map_User.png">
 
 5. Update and run python script
+
+Update the *host* and *region* variables, run the python script
