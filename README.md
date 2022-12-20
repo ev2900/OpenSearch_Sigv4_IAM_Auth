@@ -8,3 +8,11 @@ Follow the instructions below to walk through an example
 1. Run the CloudFormation stack below
 
 [![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=open-sigv4&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/opensearchpy_Sigv4.yaml)
+
+The resources created by the CloudFormation stack are documented in the architecture below
+
+
+
+2. Log into OpenSearch dashboard, map IAM user to OpenSearch role
+
+3. Run python script
