@@ -4,7 +4,7 @@ import boto3
 host = 'search-opensearch-demo-basic-auth-tf2ubrkbsq63l3fjpycipkd364.us-east-1.es.amazonaws.com' # ex. search-opensearch-demo-basic-auth-tf2ubrkbsq63l3fjpycipkd364.us-east-1.es.amazonaws.com
 region = 'us-east-1'
 
-credentials = boto3.Session(profile_name='profile-2').get_credentials()
+credentials = boto3.Session(profile_name='os-profile').get_credentials()
 
 auth = AWSV4SignerAuth(credentials, region)
 
