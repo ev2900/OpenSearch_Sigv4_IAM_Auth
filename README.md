@@ -11,6 +11,8 @@ Follow the instructions below to walk through an example
 
 The resources created by the CloudFormation stack are documented in the architecture below
 
+<img width="250" alt="map-user" src="https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/README/architecture.png">
+
 2. Navigate to the to the [opensearch-user on the IAM console](https://us-east-1.console.aws.amazon.com/iam/home#/users/opensearch-user?section=security_credentials) and create an access key
 
 3. Create a AWS CLI profile to store the access key Id and secret access key ```aws configure --profile os-profile```
