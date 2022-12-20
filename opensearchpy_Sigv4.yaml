@@ -1,5 +1,6 @@
 Description: Create a publicly accessible OpenSearch domain with an open domain access policy
 Resources:
+  # OpenSearch domain
   OpenSearchDomain:
     Type: AWS::OpenSearchService::Domain
     Properties:
@@ -40,6 +41,12 @@ Resources:
             AWS: '*'
           Action: 'es:*'
           Resource: '*'
+
+  # IAM User
+  IAMUser:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: 'opensearch-user'
 
 # Outputs for ease of use
 Outputs:
