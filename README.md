@@ -4,3 +4,7 @@ OpenSearch supports multiple authentication types. The simplest is basic authent
 The following repository demonstrates how map and IAM user to an OpenSearch role, then how to use the IAM user to make requests to the OpenSearch domain.
 
 Follow the instructions below to walk through an example
+
+1. Run the CloudFormation stack below
+
+[![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=open-sigv4&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/opensearchpy_Sigv4.yaml)
