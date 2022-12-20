@@ -4,7 +4,7 @@ Resources:
   OpenSearchDomain:
     Type: AWS::OpenSearchService::Domain
     Properties:
-      DomainName: workshop-domain
+      DomainName: sigv4-domain
       EngineVersion: 'OpenSearch_2.3'
       # Development configuration
       ClusterConfig:
