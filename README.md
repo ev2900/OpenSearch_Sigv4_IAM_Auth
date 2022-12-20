@@ -11,8 +11,8 @@ Follow the instructions below to walk through an example
 
 The resources created by the CloudFormation stack are documented in the architecture below
 
+2. Navigate to the to the [opensearch-user on the IAM console](https://us-east-1.console.aws.amazon.com/iam/home#/users/opensearch-user?section=security_credentials) and create an access key
 
-
-2. Log into OpenSearch dashboard, map IAM user to OpenSearch role
+3. Log into OpenSearch dashboard, map the ARN of the IAM user to an OpenSearch role
 
 3. Run python script
