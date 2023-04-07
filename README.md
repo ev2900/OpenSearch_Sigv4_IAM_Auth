@@ -21,6 +21,10 @@ The resources created by the CloudFormation stack are documented in the architec
 
 <img width="500" alt="map-user" src="https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/README/Map_User.png">
 
-5. Update and run python script
+5. Update and run python script. There are two python scripts you can run. Both do the same thing but use different python libraries. The [opensearchpy_Sigv4.py](https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/opensearchpy_Sigv4.py) script uses the [opensearch-py](https://opensearch-project.github.io/opensearch-py/) python library to make requests. The [requests_Sigv4.py](https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/requests_Sigv4.py) uses the more generic [requests](https://pypi.org/project/requests/) library to make requests to OpenSearch.
 
-Update the *host* and *region* variables, run the python script
+Update the *host* and *region* variables in the [opensearchpy_Sigv4.py](https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/opensearchpy_Sigv4.py) python script.
+
+Update the *host*, *path* and *region* variables in the [requests_Sigv4.py](https://github.com/ev2900/OpenSearch_Sigv4_IAM_Auth/blob/main/requests_Sigv4.py) python script.
+
+Then save and run the script(s)
