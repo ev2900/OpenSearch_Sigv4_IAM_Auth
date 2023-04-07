@@ -7,7 +7,7 @@ path = '<api_path>'.strip('/') # movies/_doc
 region = '<region>' # ex. us-east-1
 
 service = 'es'
-credentials = boto3.Session().get_credentials()
+credentials = boto3.Session(profile_name='os-profile').get_credentials()
 awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, service, session_token=credentials.token)
 
 url = host + '/' + path + '/'
