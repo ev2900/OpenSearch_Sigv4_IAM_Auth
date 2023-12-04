@@ -1,4 +1,7 @@
 # OpenSearch SIGv4 IAM Auth
+
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-076-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-015-green">
+
 OpenSearch supports multiple authentication types. The simplest is basic authentication, IAM authentication can also be used. To use IAM authentication requests need to be signed with a Sigv4 authentication header.
 
 The following repository demonstrates how map and IAM user to an OpenSearch role, then how to use the IAM user to make requests to the OpenSearch domain.
