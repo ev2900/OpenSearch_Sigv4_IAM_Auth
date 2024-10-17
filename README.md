@@ -1,6 +1,6 @@
 # OpenSearch SIGv4 IAM Auth
 
-<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-9-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-807-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-274-green">
+<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-9-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-821-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-274-green">
 
 OpenSearch supports multiple authentication types. The simplest is basic authentication, IAM authentication can also be used. To use IAM authentication requests need to be signed with a Sigv4 authentication header.
 
